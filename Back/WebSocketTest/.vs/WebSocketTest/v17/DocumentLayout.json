@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ferna\\Documents\\testes_fernando\\Testes_WebSocket\\Back\\WebSocketTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22D7C3CC-472C-4497-8F40-4F56A31641FB}|WebSocketTest.csproj|c:\\users\\ferna\\documents\\testes_fernando\\testes_websocket\\back\\websockettest\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D7C3CC-472C-4497-8F40-4F56A31641FB}|WebSocketTest.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D7C3CC-472C-4497-8F40-4F56A31641FB}|WebSocketTest.csproj|c:\\users\\ferna\\documents\\testes_fernando\\testes_websocket\\back\\websockettest\\models\\userconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D7C3CC-472C-4497-8F40-4F56A31641FB}|WebSocketTest.csproj|solutionrelative:models\\userconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D7C3CC-472C-4497-8F40-4F56A31641FB}|WebSocketTest.csproj|c:\\users\\ferna\\documents\\testes_fernando\\testes_websocket\\back\\websockettest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D7C3CC-472C-4497-8F40-4F56A31641FB}|WebSocketTest.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\Users\\ferna\\Documents\\testes_fernando\\Testes_WebSocket\\Back\\WebSocketTest\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\Users\\ferna\\Documents\\testes_fernando\\Testes_WebSocket\\Back\\WebSocketTest\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T14:28:35.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserConnection.cs",
+              "DocumentMoniker": "C:\\Users\\ferna\\Documents\\testes_fernando\\Testes_WebSocket\\Back\\WebSocketTest\\Models\\UserConnection.cs",
+              "RelativeDocumentMoniker": "Models\\UserConnection.cs",
+              "ToolTip": "C:\\Users\\ferna\\Documents\\testes_fernando\\Testes_WebSocket\\Back\\WebSocketTest\\Models\\UserConnection.cs",
+              "RelativeToolTip": "Models\\UserConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T14:24:58.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ferna\\Documents\\testes_fernando\\Testes_WebSocket\\Back\\WebSocketTest\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ferna\\Documents\\testes_fernando\\Testes_WebSocket\\Back\\WebSocketTest\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T12:38:30.975Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
