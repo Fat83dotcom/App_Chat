@@ -18,10 +18,12 @@ export const WaitingRoom = ({ joinChatRoom }) => {
         <Col sm={12}>
           <Form.Group>
             <FormControl
+              name="user"
               placeholder="Nome de usuario"
               onChange={(e) => setUserName(e.target.value)}
             />
             <FormControl
+              name="chat"
               placeholder="Chat"
               onChange={(e) => setChatRoom(e.target.value)}
             />
