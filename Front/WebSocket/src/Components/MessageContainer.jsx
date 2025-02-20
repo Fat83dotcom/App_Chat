@@ -1,16 +1,19 @@
 import P from 'prop-types'
 
-export const MessageContainer = (messages) => {
+export const MessageContainer = ({messages}) => {
+    console.log(messages)
     return (
         <>
         {
-            messages.map((msg, index) => {
-                <table>
-                    <tr key={index}>
-                        <td>{msg.msg} - {msg.userNmae}</td>
-                    </tr>
-                </table>
-            })
+            messages.map((msg, index) => 
+                <div  key={index}>
+                    <table>
+                        <tr>
+                            <td>{msg.msg} - {msg.userName}</td>
+                        </tr>
+                    </table>
+                </div>
+            )
         }
         </>
     )
