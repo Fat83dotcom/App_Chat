@@ -1,17 +1,24 @@
+using WebSocketTest.DataService;
 using WebSocketTest.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(5000);
+});
+
 builder.Services.AddSignalR();
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
-builder.Services
+builder.Services.AddSingleton<SharedDB>();
 
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAllOrigins", builder =>
     {
-        builder.WithOrigins("http://localhost:5173")
+        builder.WithOrigins("http://192.168.2.160:5173")
                .AllowAnyHeader()
                .AllowAnyMethod()
                .AllowCredentials(); // nunca esquecer dessa merda !!!
