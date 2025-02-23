@@ -18,7 +18,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAllOrigins", builder =>
     {
-        builder.WithOrigins("http://192.168.2.160:5173")
+        builder.WithOrigins("http://192.168.0.101:5174")
                .AllowAnyHeader()
                .AllowAnyMethod()
                .AllowCredentials(); // nunca esquecer dessa merda !!!
