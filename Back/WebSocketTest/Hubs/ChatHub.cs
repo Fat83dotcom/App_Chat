@@ -21,8 +21,13 @@ namespace WebSocketTest.Hubs
             await Clients
                 .Group(connection.ChatRoom)
                 .SendAsync(
-                    "ReceiveMessage", "admin", $"{connection.UserName} nas joined {connection.ChatRoom}"
+                    "ReceiveMessage", "admin", $"{connection.UserName} has joined {connection.ChatRoom}"
                 );
+        }
+
+        private static string AddDateToMessage(string msg)
+        {
+            return $"{msg} : {String.Format("{0:g}", DateTime.Now)}";
         }
 
         public async Task SendMessage(string msg)
@@ -30,9 +35,8 @@ namespace WebSocketTest.Hubs
             if (_sharedDB.Connections.TryGetValue(Context.ConnectionId, out UserConnection? connection))
             {
                 await Clients.Group(connection.ChatRoom)
-                    .SendAsync("ReceiveSpecificMessage", connection.UserName, msg);
+                    .SendAsync("ReceiveSpecificMessage", connection.UserName, AddDateToMessage(msg));
             }
         }
-
     }
 }
