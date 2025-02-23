@@ -14,7 +14,7 @@ function App() {
   const joinChatRoom = async (userName, chatRoom) => {
     try {
       const conn = new HubConnectionBuilder()
-        .withUrl("http://192.168.2.160:5000/chat")
+        .withUrl("http://192.168.0.101:5000/chat")
         .configureLogging(LogLevel.Information)
         .build();
 
